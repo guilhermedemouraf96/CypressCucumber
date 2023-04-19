@@ -28,4 +28,4 @@ jobs:
     - run: npm ci
     - run: npm install cypress
     - run: npm install cypress-cucumber-preprocessor
-    - run: npm test
+    - run: npx cypress run -e TAGS='@login'

@@ -4,7 +4,7 @@
   "description": "Cucumber Framework",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "cypress run"
   },
   "keywords": [
     "cypress"
